@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark tech room background -->
+  <rect width="800" height="500" fill="url(#bg)" />
+
+  <!-- Decorative network grid / lines -->
+  <g stroke="rgba(56, 189, 248, 0.15)" stroke-width="1">
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="200" y1="0" x2="200" y2="500" />
+    <line x1="400" y1="0" x2="400" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+  </g>
+
+  <!-- Header Banner -->
+  <rect x="200" y="30" width="400" height="60" rx="8" fill="#00875a" stroke="#38bdf8" stroke-width="2" />
+  <text x="400" y="66" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="18" text-anchor="middle">CENTRO DE CÓMPUTO Y ACERVO DIGITAL</text>
+
+  <!-- Computer Workstations -->
+  <!-- Station 1 (Left) -->
+  <g transform="translate(80, 140)">
+    <!-- Monitor Base & Stand -->
+    <rect x="70" y="150" width="40" height="15" fill="#64748b" />
+    <rect x="83" y="125" width="14" height="25" fill="#475569" />
+    <!-- Monitor Screen frame -->
+    <rect x="20" y="20" width="140" height="105" rx="6" fill="#334155" stroke="#0284c7" stroke-width="2" />
+    <!-- Monitor Display -->
+    <rect x="28" y="28" width="124" height="89" fill="url(#screen)" />
+    <!-- Screen content: Catalog UI -->
+    <rect x="35" y="35" width="110" height="15" fill="#ffffff" opacity="0.9" rx="3" />
+    <text x="40" y="46" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="9">Catálogo Bibliográfico UTL</text>
+    <rect x="35" y="58" width="50" height="8" fill="#e2e8f0" rx="2" />
+    <rect x="35" y="70" width="70" height="8" fill="#e2e8f0" rx="2" />
+    <rect x="35" y="82" width="40" height="8" fill="#38bdf8" rx="2" />
+    <!-- Keyboard & Mouse -->
+    <rect x="30" y="165" width="120" height="15" rx="3" fill="#475569" />
+    <ellipse cx="170" cy="172" rx="8" ry="12" fill="#475569" />
+  </g>
+
+  <!-- Station 2 (Center - Main Spotlight) -->
+  <g transform="translate(310, 120)">
+    <!-- Monitor Base & Stand -->
+    <rect x="80" y="180" width="50" height="18" fill="#94a3b8" />
+    <rect x="96" y="150" width="18" height="30" fill="#64748b" />
+    <!-- Monitor Screen frame -->
+    <rect x="10" y="10" width="190" height="140" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="3" />
+    <!-- Monitor Display -->
+    <rect x="20" y="20" width="170" height="120" fill="url(#screen)" />
+    <!-- Screen content: Digital Library Portal -->
+    <rect x="30" y="30" width="150" height="20" fill="#00875a" rx="4" />
+    <text x="105" y="44" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="11" text-anchor="middle">BIBLIOTECA VIRTUAL UTL</text>
+    <!-- Book Cards inside screen -->
+    <rect x="35" y="60" width="40" height="55" fill="#f8fafc" rx="3" />
+    <rect x="85" y="60" width="40" height="55" fill="#f8fafc" rx="3" />
+    <rect x="135" y="60" width="35" height="55" fill="#f8fafc" rx="3" />
+    <text x="55" y="90" fill="#00875a" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Ebook</text>
+    <text x="105" y="90" fill="#0284c7" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Tesis</text>
+    <!-- Keyboard & Mouse -->
+    <rect x="35" y="200" width="140" height="18" rx="4" fill="#64748b" />
+    <ellipse cx="195" cy="209" rx="10" ry="14" fill="#64748b" />
+  </g>
+
+  <!-- Station 3 (Right) -->
+  <g transform="translate(580, 140)">
+    <!-- Monitor Base & Stand -->
+    <rect x="70" y="150" width="40" height="15" fill="#64748b" />
+    <rect x="83" y="125" width="14" height="25" fill="#475569" />
+    <!-- Monitor Screen frame -->
+    <rect x="20" y="20" width="140" height="105" rx="6" fill="#334155" stroke="#0284c7" stroke-width="2" />
+    <!-- Monitor Display -->
+    <rect x="28" y="28" width="124" height="89" fill="url(#screen)" />
+    <!-- Screen content -->
+    <rect x="35" y="35" width="110" height="15" fill="#ffffff" opacity="0.9" rx="3" />
+    <text x="40" y="46" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-weight="bold" font-size="9">Búsqueda de Libros</text>
+    <rect x="35" y="58" width="60" height="8" fill="#e2e8f0" rx="2" />
+    <rect x="35" y="70" width="80" height="8" fill="#e2e8f0" rx="2" />
+    <rect x="35" y="82" width="50" height="8" fill="#38bdf8" rx="2" />
+    <!-- Keyboard & Mouse -->
+    <rect x="30" y="165" width="120" height="15" rx="3" fill="#475569" />
+    <ellipse cx="170" cy="172" rx="8" ry="12" fill="#475569" />
+  </g>
+
+  <!-- Desk Bar across bottom -->
+  <rect y="380" width="800" height="60" fill="#0f172a" stroke="#334155" stroke-width="2" />
+
+  <!-- Title Overlay at bottom -->
+  <rect x="0" y="440" width="800" height="60" fill="rgba(0,0,0,0.7)" />
+  <text x="30" y="475" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-weight="bold" font-size="20">3. Acervo Digital y Cómputo - Biblioteca UTL</text>
+</svg>

@@ -1,16 +1,23 @@
-# React + Vite
+# JOMO Biblioteca UTL
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación React + Vite + Bootstrap + PWA para consultar y administrar un catálogo de libros.
 
-Currently, two official plugins are available:
+## Instalación
+1. Abre la carpeta del proyecto en Visual Studio Code.
+2. Abre una terminal en esa carpeta.
+3. Ejecuta `npm install`.
+4. Ejecuta `npm run dev`.
+5. Abre la dirección local que indique Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Acceso de prueba (DummyJSON)
+- Usuario: `emilys`
+- Contraseña: `emilyspass`
 
-## React Compiler
+## Tecnologías
+React Hooks (`useState`, `useEffect`, `useContext`, `useReducer`), React Router, Fetch API, Context, Reducer/dispatch, formularios controlados y validación.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## API
+Autenticación: `https://dummyjson.com/auth/login`
+Catálogo y operaciones CRUD simuladas: `https://dummyjson.com/products`
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Nota: DummyJSON simula POST, PUT y DELETE. Los cambios se reflejan en el estado de la aplicación, pero la API no los conserva permanentemente.

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3c72" />
+      <stop offset="100%" stop-color="#2a5298" />
+    </linearGradient>
+    <linearGradient id="utl-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00875a" />
+      <stop offset="100%" stop-color="#00b894" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.6)" />
+      <stop offset="100%" stop-color="rgba(200,230,255,0.2)" />
+    </linearGradient>
+    <linearGradient id="building" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8f9fa" />
+      <stop offset="100%" stop-color="#dee2e6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="800" height="500" fill="url(#sky)" />
+
+  <!-- Sun effect -->
+  <circle cx="680" cy="90" r="60" fill="#ffd166" opacity="0.3" />
+  <circle cx="680" cy="90" r="40" fill="#ffd166" opacity="0.6" />
+
+  <!-- UTL Campus Greenery / Lawn -->
+  <path d="M0 380 Q 200 360 400 375 T 800 370 L 800 500 L 0 500 Z" fill="#2d6a4f" />
+  <path d="M0 400 Q 300 380 600 395 T 800 390 L 800 500 L 0 500 Z" fill="#40916c" />
+
+  <!-- Pathway -->
+  <polygon points="320,500 480,500 430,375 370,375" fill="#adb5bd" />
+
+  <!-- Main Library Building Structure -->
+  <!-- Base structure -->
+  <rect x="150" y="160" width="500" height="215" rx="8" fill="url(#building)" stroke="#ced4da" stroke-width="2" />
+
+  <!-- UTL Corporate Top Banner -->
+  <rect x="140" y="140" width="520" height="35" rx="5" fill="url(#utl-green)" />
+  <text x="400" y="163" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-weight="bold" font-size="18" text-anchor="middle" letter-spacing="2">BIBLIOTECA CENTRAL UTL</text>
+
+  <!-- Glass Front Façade / Windows -->
+  <g fill="url(#glass)" stroke="#0d6efd" stroke-width="1.5">
+    <!-- Row 1 Windows -->
+    <rect x="180" y="195" width="80" height="60" rx="3" />
+    <rect x="280" y="195" width="80" height="60" rx="3" />
+    <rect x="440" y="195" width="80" height="60" rx="3" />
+    <rect x="540" y="195" width="80" height="60" rx="3" />
+
+    <!-- Row 2 Windows -->
+    <rect x="180" y="275" width="80" height="60" rx="3" />
+    <rect x="280" y="275" width="80" height="60" rx="3" />
+    <rect x="440" y="275" width="80" height="60" rx="3" />
+    <rect x="540" y="275" width="80" height="60" rx="3" />
+  </g>
+
+  <!-- Main Entrance Glass Doors -->
+  <rect x="370" y="260" width="60" height="115" rx="3" fill="#0d6efd" opacity="0.8" stroke="#ffffff" stroke-width="2" />
+  <line x1="400" y1="260" x2="400" y2="375" stroke="#ffffff" stroke-width="2" />
+  <circle cx="393" cy="320" r="3" fill="#ffffff" />
+  <circle cx="407" cy="320" r="3" fill="#ffffff" />
+
+  <!-- UTL Logo Emblem badge on entrance -->
+  <circle cx="400" cy="225" r="22" fill="#00875a" stroke="#ffffff" stroke-width="2" />
+  <text x="400" y="231" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="900" font-size="16" text-anchor="middle">UTL</text>
+
+  <!-- Trees -->
+  <!-- Left Tree -->
+  <rect x="90" y="320" width="15" height="70" fill="#6c584c" />
+  <circle cx="97" cy="300" r="45" fill="#52b788" />
+  <circle cx="80" cy="310" r="35" fill="#2d6a4f" />
+  <circle cx="115" cy="305" r="30" fill="#74c69d" />
+
+  <!-- Right Tree -->
+  <rect x="695" y="320" width="15" height="70" fill="#6c584c" />
+  <circle cx="702" cy="300" r="45" fill="#52b788" />
+  <circle cx="685" cy="310" r="35" fill="#2d6a4f" />
+  <circle cx="720" cy="305" r="30" fill="#74c69d" />
+
+  <!-- Title Badge Overlay at bottom -->
+  <rect x="0" y="440" width="800" height="60" fill="rgba(0,0,0,0.6)" />
+  <text x="30" y="475" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-weight="bold" font-size="20">1. Fachada Principal - Biblioteca UTL León</text>
+</svg>
